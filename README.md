@@ -43,7 +43,7 @@ The system integrates standard aerospace sensors via parallel SPI and I2C buses:
 
 
 ## 🛠️ Critical Engineering Solutions
-Building custom avionics requires solving deep hardware/software conflicts. Detailed logs can be found in the [Engineering Log](docs/AeroCore_S3_Engineering_Log.md). Highlights include:
+Building custom avionics requires solving deep hardware/software conflicts. Detailed logs can be found in the [Engineering Log](docs/AeroCore-S3-Flight-Controller.md). Highlights include:
 1. **Power Grid Stabilization (Brown-outs):** High transient current draws during WiFi radio initialization caused boot-looping. Solved by integrating a 4700uF decoupling capacitor across the 5V rail and managing PSRAM boot sequences.
 2. **Hardware Watchdog Mitigation:** Identified a 40-second kernel panic caused by SD Card SPI timeout hangs. Resolved by isolating the SD Chip Select (CS) logic and patching the `HAL_LOGGING_ENABLED` flag.
 3. **EKF3 "Nuclear Bypass" for Bench Testing:** Overrode ArduPilot's strict pre-arm EKF checks, forcing DCM navigation to allow for indoor, sensor-less virtual joystick tuning.
