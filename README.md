@@ -55,3 +55,5 @@ This repository contains the custom hardware definition (`hwdef`) required to co
 ```bash
 ./waf configure --board esp32s3-aerocore
 ./waf copter
+
+Developed by Yogesh E S - Aeronautical Engineer 
