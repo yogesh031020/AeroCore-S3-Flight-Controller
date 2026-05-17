@@ -2,6 +2,12 @@
 
 Custom ArduPilot board target for ESP32S3-based flight controller.
 
+## Hardware Showcase
+
+![AeroCore S3 Drone](aerocore_drone.jpg)
+![AeroCore S3 PCB Bottom Wiring](aerocore_wiring_bottom.jpg)
+![AeroCore S3 PCB Top Components](aerocore_board_top.jpg)
+
 ## Pinout Mapping
 - IMU: ICM-20948 (SPI1)
 - Baro: BMP581 (I2C)
