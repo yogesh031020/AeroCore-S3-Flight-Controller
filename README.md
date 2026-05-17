@@ -28,7 +28,8 @@ This project demonstrates deep integration of embedded systems, custom PCB assem
   <img src="docs/aerocore_wiring_bottom.jpg" width="400" alt="PCB Wiring">
   <p><i>Left: Final Flight Assembly | Right: Custom Point-to-Point Wiring Map</i></p>
 </div>
----
+
+
 ## 🧠 Avionics Architecture
 The system integrates standard aerospace sensors via parallel SPI and I2C buses:
 | Component | Hardware Module | Interface | ESP32-S3 Pins |
