@@ -4,7 +4,14 @@ Custom ArduPilot board target for ESP32S3-based flight controller.
 
 ## Hardware Showcase
 
-![AeroCore S3 Drone](aerocore_drone.jpg)
+### Final Flight Assembly
+![Final Assembly Side View](aerocore_final_assembly_side.jpg)
+![Final Assembly with Remote](aerocore_final_assembly_remote.jpg)
+![Final Assembly Top View](aerocore_final_assembly_top.jpg)
+![Final Assembly Powered On](aerocore_final_assembly_power.jpg)
+
+### Custom PCB Build
+![AeroCore S3 Drone Base](aerocore_drone.jpg)
 ![AeroCore S3 PCB Bottom Wiring](aerocore_wiring_bottom.jpg)
 ![AeroCore S3 PCB Top Components](aerocore_board_top.jpg)
 
