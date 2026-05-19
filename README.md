@@ -46,6 +46,16 @@ This project demonstrates deep systems engineering integration across PCB point-
 
 ---
 
+## 🎥 Real-World Flight Demonstration
+Experience the custom ESP32-S3 flight controller operating in active flight:
+
+### 📺 AeroCore-S3 Flight Test & Attitude Stabilization Run
+*   **Flight Video file**: `docs/videos/aerocore_s3_flight_test.mp4` (24.7 MB)
+*   *Description*: Autonomous stable hover and manual pilot roll/pitch attitude correction. This flight test validates the real-time sensor fusion filter (EKF3), low-latency PWM output, and high-frequency stabilization loops operating on custom-mapped ESP32-S3 pins under ArduPilot firmware.
+*   *Link*: [Play flight test demonstration video](docs/videos/aerocore_s3_flight_test.mp4)
+
+---
+
 ## 🧠 Avionics Architecture & Bus Design
 The ESP32-S3 manages telemetry, orientation loops, and motor actuators using high-frequency SPI, I2C, and UART interfaces:
 
@@ -133,7 +143,8 @@ AeroCore-S3-Flight-Controller/
 │   ├── defaults_v34.parm        # Flight controller defaults (EKF bypass, iBUS)
 │   └── hwdef_ultimate.dat       # Mapped hardware pins & compiler directives
 ├── docs/
-│   └── images/                  # Flight hardware assembly & wiring diagrams
+│   ├── images/                  # Flight hardware assembly & wiring diagrams
+│   └── videos/                  # Flight test demonstration video
 ├── build/
 │   └── AEROCORE_V49_FINAL.bin   # Output master compiled merged binary
 ├── build_v49.sh                 # Fully automated build & merge compiler script
